@@ -10,4 +10,5 @@ Run ollama models.
 
 ```shell
 ollama pull mistral:7b
+ollama pull qwen3-embedding:4b
 ```
