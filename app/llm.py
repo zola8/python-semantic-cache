@@ -7,15 +7,6 @@ SYSTEM_PROMPT = """
   You are a helpful assistant that answers questions strictly based on the provided context. 
 """
 
-questions = [
-    'What is recursion?',
-    'What is recursion?',
-    'Can you explain recursion?',
-    'Tell me what recursion is.',
-    'What is the capital of England?',
-    'What is the capital of France?',
-]
-
 
 def create_response(query_question):
     response: ChatResponse = chat(
